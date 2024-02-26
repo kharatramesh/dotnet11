@@ -22,6 +22,7 @@ jobs:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client_secret: ".x48Q~_jNliaQ_5dkcA8r4grXi6XCg9Nboe2jbWD"
   
       - name: Azure CLI script
         uses: azure/CLI@v1
